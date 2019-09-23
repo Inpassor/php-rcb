@@ -1,0 +1,30 @@
+{
+    "name": "inpassor/rcb",
+    "version": "1.0.0",
+    "description": "REST / Console back end",
+    "keywords": [
+        "PHP",
+        "REST",
+        "console",
+        "backend"
+    ],
+    "homepage": "https://github.com/Inpassor/php-rcb",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg V. Kuzmin",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "google/protobuf": "*",
+        "oleh-ozimok/php-centrifugo": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "App.php"
+        ]
+    }
+}
