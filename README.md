@@ -1,4 +1,4 @@
-# REST / Console back end
+# REST / Console backend
 
 ## Core components:
 
